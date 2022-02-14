@@ -83,11 +83,11 @@ public class FrontController {
    }
 }
 ```
-`Use the FrontController to demonstrate Front Controller Design Pattern.`
+`Use the Main class to demonstrate Front Controller Design Pattern.`
 
-- FrontControllerPatternDemo.java
+- Main.java
 ```java
-public class FrontControllerPatternDemo {
+public class Main {
    public static void main(String[] args) {
    
       FrontController frontController = new FrontController();
