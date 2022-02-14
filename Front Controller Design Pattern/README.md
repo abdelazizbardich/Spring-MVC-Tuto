@@ -103,3 +103,12 @@ Displaying Student Page
 
 # In spring MVC:
 Front controller in Spring MVC is presented by `DispatcherServlet` wich is a class that receives the incoming request and maps it to the right resource such as controllers, models, and views.
+
+---
+<img src="https://static.javatpoint.com/sppages/images/spring-web-model-view-controller.png" width="100%" style="padding:16px;background:white;">
+
+---
+- ***Model***: A model contains the data of the application. A data can be a single object or a collection of objects.
+- ***Controller***: A controller contains the business logic of an application. Here, the @Controller annotation is used to mark the class as the controller.
+- ***View**: A view represents the provided information in a particular format. Generally, JSP+JSTL is used to create a view page. Although spring also supports other view technologies such as Apache Velocity, Thymeleaf and FreeMarker.
+- ***Front Controller***: In Spring Web MVC, the DispatcherServlet class works as the front controller. It is responsible to manage the flow of the Spring MVC application.
