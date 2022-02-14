@@ -1,6 +1,11 @@
 # Front Controller Desing Pattern
-### Explication:
+## Probleme:
+In A Java Application we use Servlets to manage our application endpoints, bu as application grows our servlets number also increases, so we hit the Redundancy of common functionalities acros servlets like (authentication, authorization,logging,tracking).
+## Solution:
+To void that The solution is to use the Front controller design pattern.
 
+---
+### Explication:
 The front controller design pattern is used to provide a centralized request handling mechanism so that all requests will be handled by a single handler. This handler can do the authentication/ authorization/ logging or tracking of request and then pass the requests to corresponding handlers. Following are the entities of this type of design pattern.
  - **Front Controller**: Single handler for all kinds of requests coming to the application (either web based/ desktop based).
  - **Dispatcher**: Front Controller may use a dispatcher object which can dispatch the request to corresponding specific handler.
@@ -110,5 +115,5 @@ Front controller in Spring MVC is presented by `DispatcherServlet` wich is a cla
 ---
 - ***Model***: A model contains the data of the application. A data can be a single object or a collection of objects.
 - ***Controller***: A controller contains the business logic of an application. Here, the @Controller annotation is used to mark the class as the controller.
-- ***View**: A view represents the provided information in a particular format. Generally, JSP+JSTL is used to create a view page. Although spring also supports other view technologies such as Apache Velocity, Thymeleaf and FreeMarker.
+- ***View***: A view represents the provided information in a particular format. Generally, JSP+JSTL is used to create a view page. Although spring also supports other view technologies such as Apache Velocity, Thymeleaf and FreeMarker.
 - ***Front Controller***: In Spring Web MVC, the DispatcherServlet class works as the front controller. It is responsible to manage the flow of the Spring MVC application.
