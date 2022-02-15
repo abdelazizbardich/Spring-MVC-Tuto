@@ -11,10 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1380618e-f518-4e8b-8330-f611a6efe76d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/youcode/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youcode/controller/WelcomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DeclarativeRoutingAnnotationInSpringCodingfromScratch.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/DeclarativeRoutingAnnotationInSpringCodingfromScratch.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DeclarativeRoutingAnnotationInSpringCodingfromScratch/WEB-INF/classes/com/youcode/controller/WelcomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/DeclarativeRoutingAnnotationInSpringCodingfromScratch/WEB-INF/classes/com/youcode/controller/WelcomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/youcode/controller/WelcomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youcode/controller/WelcomeController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +151,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644924176840</updated>
-      <workItem from="1644924177958" duration="5337000" />
+      <workItem from="1644924177958" duration="6320000" />
+      <workItem from="1644935453649" duration="34000" />
     </task>
     <servers />
   </component>
