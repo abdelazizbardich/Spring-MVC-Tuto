@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/user") // prefix all request mapping on this controller with "/user"
+//@RequestMapping("/user") // prefix all request mapping on this controller with "/user"
+@RequestMapping(value = {"/user","/admin"}) // to use this controller with more than url
 public class WelcomeController {
 
     @RequestMapping("/")
@@ -15,7 +16,8 @@ public class WelcomeController {
         return "welcome";
     }
 //    @RequestMapping(value = "/signup" ,method = RequestMethod.GET)
-    @GetMapping("/signup")
+//    @GetMapping("/signup")
+    @GetMapping({"/signup","/register"}) // to use this controller with more than url
     public String singUp(){
         System.out.println("GET method called");
         return "SignUpForm";
