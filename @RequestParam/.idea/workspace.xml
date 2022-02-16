@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1380618e-f518-4e8b-8330-f611a6efe76d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/products.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Declarative Routing Annotation In Spring Coding from Scratch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Declarative Routing Annotation In Spring Coding from Scratch/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1380618e-f518-4e8b-8330-f611a6efe76d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,6 +157,7 @@
       <workItem from="1644924177958" duration="6320000" />
       <workItem from="1644935496957" duration="1642000" />
       <workItem from="1644940771667" duration="487000" />
+      <workItem from="1645004013489" duration="21000" />
     </task>
     <servers />
   </component>
